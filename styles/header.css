@@ -1,3 +1,5 @@
+@import './variables.css';
+
 header {
   display: flex;
   justify-content: space-between;
@@ -30,25 +32,25 @@ header {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: white;
+  color: var(--general-text-color);
 }
 
 .header-book-button {
   padding: 15px 30px;
-  border: 2px solid #d5621d;
+  border: 2px solid var(--border-color);
   border-radius: 5px;
 }
 
 .header-book-button button {
   text-transform: uppercase;
   background-color: transparent;
-  color: white;
+  color: var(--general-text-color);
   border: none;
 }
 
 .header-mobile-menu {
   display: none;
-  color: white;
+  color: var(--general-text-color);
   font-size: 40px;
 }
 

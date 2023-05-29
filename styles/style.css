@@ -1,5 +1,6 @@
 @import "./header.css";
 @import "./main.css";
+@import "./variables.css";
 
 @font-face {
   font-family: "Stolzl-Regular";
@@ -41,7 +42,7 @@ html {
 }
 
 body {
-  background-color: #333333;
+  background-color: var(--background-color);
 }
 
 @media (max-width: 468px) {

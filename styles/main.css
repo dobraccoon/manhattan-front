@@ -1,3 +1,5 @@
+@import "./variables.css";
+
 main {
   margin: 55px 16.25% 0 16.25%;
 }
@@ -21,7 +23,7 @@ main {
   margin: 0 0 45px 60px;
 }
 .main-content p {
-  background: #ffffff;
+  background: var(--general-text-color);
   border-radius: 5px;
   width: fit-content;
   font-weight: 700;
@@ -51,7 +53,7 @@ main {
 .programm-select {
   display: flex;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--general-text-color);
   font-weight: 700;
   font-size: 14px;
 }
