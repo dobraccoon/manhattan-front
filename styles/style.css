@@ -1,16 +1,8 @@
 @import "./header.css";
 @import "./main.css";
 @import "./variables.css";
-
-@font-face {
-  font-family: "Stolzl-Regular";
-  src: url("../fonts/stolzl/Stolzl-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Gotham Pro";
-  src: url("../fonts/gotham-pro/gothampro.ttf") format("truetype");
-}
+@import "./kitchen.css";
+@import "./template.css";
 
 * {
   margin: 0;

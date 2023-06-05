@@ -2,6 +2,8 @@
 
 main {
   margin: 55px 16.25% 0 16.25%;
+
+  border: 2px solid red;
 }
 
 .program {

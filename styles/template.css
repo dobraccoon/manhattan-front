@@ -1,0 +1,30 @@
+@import "./variables.css";
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-link {
+  color: black;
+  background-color: var(--general-text-color);
+  font-size: 0.87rem;
+  line-height: 150%;
+  font-weight: 700;
+  padding: 10px 20px 7px 20px;
+  border-radius: 5px;
+  width: fit-content;
+  text-align: center;
+}
+.title-text {
+  margin-top: 40px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: var(--general-text-color);
+  letter-spacing: 0.05em;
+}

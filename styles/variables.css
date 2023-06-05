@@ -1,6 +1,17 @@
+@font-face {
+  font-family: "Stolzl-Regular";
+  src: url("../fonts/stolzl/Stolzl-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/gotham-pro/gothampro.ttf") format("truetype");
+}
+
 :root{
 --general-text-color: #FFFFFF;
 --border-color: #D5621D;
 --button-color: #D5621D;
+--weight-color: #D5621D;
 --background-color: #333333;
 }
